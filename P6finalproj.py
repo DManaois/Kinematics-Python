@@ -125,10 +125,10 @@ class Velocity:
         v1 = IV * IV
         v2 = AC * D
         v3 = 2 * v2
-        v4 = v3 - v1
+        v4 = v1 - v3
         import math
-        VELOCITY = math.sqrt(v4)
-        print("The Final Velocity is: ", VELOCITY)
+        V = math.sqrt(v4)
+        print("The Final Velocity is: ", V)
         aop.AO()
 
 class Option:
