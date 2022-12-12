@@ -127,8 +127,8 @@ class Velocity:
         v3 = 2 * v2
         v4 = v3 - v1
         import math
-        V = math.sqrt(v4)
-        print("The Final Velocity is: ", V)
+        VELOCITY = math.sqrt(v4)
+        print("The Final Velocity is: ", VELOCITY)
         aop.AO()
 
 class Option:
